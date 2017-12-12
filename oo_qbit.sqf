@@ -43,6 +43,7 @@
 		};
 
 		PUBLIC FUNCTION("","deconstructor") { 
+			DELETE VARIABLE("qbit");
 			DELETE VARIABLE("this");
 		};
 	ENDCLASS;
